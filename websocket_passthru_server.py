@@ -1,4 +1,3 @@
-# Based on https://docs.python.org/2/library/socket.html
 import socket
 import threading
 import hashlib
