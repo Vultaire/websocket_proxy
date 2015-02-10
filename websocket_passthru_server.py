@@ -30,9 +30,6 @@ meaningful conversion is taken care of for you.  Or something like that...
 
 """
 
-remote_host = 'localhost'
-remote_port = 50007
-
 BLOCK_SIZE = 4096
 
 open_sockets = {}
