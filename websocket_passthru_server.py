@@ -321,8 +321,8 @@ class BufferedSocket(object):
     def _read_into_buffer(self):
         """Read a block into the socket buffer."""
         data = self.socket.recv(BLOCK_SIZE)
-        if len(data) == 0:
-            raise EOFError()
+        #if len(data) == 0:
+        #    raise EOFError()   # ...how is EOF detected?  Need to test.
         self.buffer += data
 
     def read_until(self, pattern):
